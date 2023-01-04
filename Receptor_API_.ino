@@ -12,7 +12,7 @@ AESLib aesLib;
 #define LED_VERMELHO 32
 #define LED_AMARELO 33
 
-const char* ssid       = "Ludwig";
+const char* ssid       = "Teste";
 const char* password   = "Tudobem03";
 
 HTTPClient http;
