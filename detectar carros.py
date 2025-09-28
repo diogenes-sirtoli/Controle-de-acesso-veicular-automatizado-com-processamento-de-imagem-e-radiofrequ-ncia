@@ -7,7 +7,7 @@ import cv2
 model = yolov5.load('yolov5s.pt') 
 
 # Images
-img = ('teste.jpg')  # or file, Path, PIL, OpenCV, numpy, list
+img = ('D:/Imagens/placas/fotos26/1.jpg')  # or file, Path, PIL, OpenCV, numpy, list
 #img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 tempo1 = time.time()
@@ -23,7 +23,7 @@ print(tempo)
 print(results.xyxy[0][0])
 print(len(results.xyxy[0][0])) #número de colunas
 print(len(results.xyxy[0])) #número de linhas
-cv2.imwrite('Resultado.jpg', results.save())
+cv2.imwrite('D:/Imagens/placas/fotos26/Resultado.jpg', results.save())
 
    
 cont = 0
